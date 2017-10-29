@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -141,6 +142,42 @@
     <Compile Include="Migrations\201710271746080_PagesAndControllersAdded.Designer.cs">
       <DependentUpon>201710271746080_PagesAndControllersAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710291711517_Stuff.cs" />
+    <Compile Include="Migrations\201710291711517_Stuff.Designer.cs">
+      <DependentUpon>201710291711517_Stuff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710291722051_csswork.cs" />
+    <Compile Include="Migrations\201710291722051_csswork.Designer.cs">
+      <DependentUpon>201710291722051_csswork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710291723113_csswork1.cs" />
+    <Compile Include="Migrations\201710291723113_csswork1.Designer.cs">
+      <DependentUpon>201710291723113_csswork1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710291725370_moreattemptedcss.cs" />
+    <Compile Include="Migrations\201710291725370_moreattemptedcss.Designer.cs">
+      <DependentUpon>201710291725370_moreattemptedcss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710291726250_revertedcss.cs" />
+    <Compile Include="Migrations\201710291726250_revertedcss.Designer.cs">
+      <DependentUpon>201710291726250_revertedcss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710291753184_navbarcsstry.cs" />
+    <Compile Include="Migrations\201710291753184_navbarcsstry.Designer.cs">
+      <DependentUpon>201710291753184_navbarcsstry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710291755242_csstestagain.cs" />
+    <Compile Include="Migrations\201710291755242_csstestagain.Designer.cs">
+      <DependentUpon>201710291755242_csstestagain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710291759284_NavRoundedEdgesRemoved.cs" />
+    <Compile Include="Migrations\201710291759284_NavRoundedEdgesRemoved.Designer.cs">
+      <DependentUpon>201710291759284_NavRoundedEdgesRemoved.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710291800113_NavRoundedEdgesRemoved1.cs" />
+    <Compile Include="Migrations\201710291800113_NavRoundedEdgesRemoved1.Designer.cs">
+      <DependentUpon>201710291800113_NavRoundedEdgesRemoved1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\MVCReviewSiteContext.cs" />
@@ -222,6 +259,33 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710271746080_PagesAndControllersAdded.resx">
       <DependentUpon>201710271746080_PagesAndControllersAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710291711517_Stuff.resx">
+      <DependentUpon>201710291711517_Stuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710291722051_csswork.resx">
+      <DependentUpon>201710291722051_csswork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710291723113_csswork1.resx">
+      <DependentUpon>201710291723113_csswork1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710291725370_moreattemptedcss.resx">
+      <DependentUpon>201710291725370_moreattemptedcss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710291726250_revertedcss.resx">
+      <DependentUpon>201710291726250_revertedcss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710291753184_navbarcsstry.resx">
+      <DependentUpon>201710291753184_navbarcsstry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710291755242_csstestagain.resx">
+      <DependentUpon>201710291755242_csstestagain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710291759284_NavRoundedEdgesRemoved.resx">
+      <DependentUpon>201710291759284_NavRoundedEdgesRemoved.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710291800113_NavRoundedEdgesRemoved1.resx">
+      <DependentUpon>201710291800113_NavRoundedEdgesRemoved1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

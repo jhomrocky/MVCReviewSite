@@ -17,6 +17,7 @@ namespace MVCReviewSite.Models
         [Display(Name = "Published Date")]
         public DateTime PublishDate { get; set; }
 
+        [Range(0,10)]
         public int Score { get; set; }
 
         [ForeignKey("Category")]
