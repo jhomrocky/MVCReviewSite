@@ -10,18 +10,18 @@
     <h4>Review</h4>
     <hr />
 
-            @Html.DisplayNameFor(model => model.Category.CategoryName): @Html.DisplayFor(model => model.Category.CategoryName)
+    <p>@Html.DisplayNameFor(model => model.Category.CategoryName): @Html.DisplayFor(model => model.Category.CategoryName)</p>
 
-            @Html.DisplayNameFor(model => model.Title): @Html.DisplayFor(model => model.Title)
+    <p>@Html.DisplayNameFor(model => model.Title): @Html.DisplayFor(model => model.Title)</p>
 
-            @Html.DisplayNameFor(model => model.Content): @Html.DisplayFor(model => model.Content)
+    <p>@Html.DisplayNameFor(model => model.DeviceReview): @Html.DisplayFor(model => model.DeviceReview)</p>
 
-            @Html.DisplayNameFor(model => model.PublishDate): @Html.DisplayFor(model => model.PublishDate)
+    <p>@Html.DisplayNameFor(model => model.ReleaseDate): @Html.DisplayFor(model => model.ReleaseDate)</p>
 
-            @Html.DisplayNameFor(model => model.Score): @Html.DisplayFor(model => model.Score)
+    <p>@Html.DisplayNameFor(model => model.Score): @Html.DisplayFor(model => model.Score)</p>
 
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>

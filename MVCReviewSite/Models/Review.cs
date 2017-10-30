@@ -12,10 +12,11 @@ namespace MVCReviewSite.Models
         [Key]
         public int ID { get; set; }
         public string Title { get; set; }
-        public string Content { get; set; }
+        [Display(Name = "Device Review")]
+        public string DeviceReview { get; set; }
 
-        [Display(Name = "Published Date")]
-        public DateTime PublishDate { get; set; }
+        [Display(Name = "Date of Release")]
+        public DateTime ReleaseDate { get; set; }
 
         [Range(0,10)]
         public int Score { get; set; }

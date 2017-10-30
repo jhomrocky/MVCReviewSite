@@ -5,10 +5,10 @@
     }
 
     <h2>Reviews</h2>
-
-    <p>
+    <br />
+    <h5>
         @Html.ActionLink("Create New", "Create")
-    </p>
+    </h5>
     <div class="row reviewBoxes">
         @foreach (var item in Model)
         {
@@ -16,9 +16,8 @@
             <div class="thumbnail">
                 <div class="caption">
                     <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
-                    <p>@Html.DisplayNameFor(model => model.PublishDate):@Html.DisplayFor(modelItem => item.PublishDate)</p>
+                    <p>@Html.DisplayNameFor(model => model.ReleaseDate): @Html.DisplayFor(modelItem => item.ReleaseDate)</p>
                     <p>@Html.ActionLink("Full Details", "Details", new { id = item.ID }, new { @class = "btn btn-primary", role = "button" }) </p>
-                    <p><span class="btn btn-file"><input type="file" /></span></p>
                 </div>
             </div>
         </div>

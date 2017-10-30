@@ -198,6 +198,22 @@
     <Compile Include="Migrations\201710292353477_NavbarAndFooterCssWork4.Designer.cs">
       <DependentUpon>201710292353477_NavbarAndFooterCssWork4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710300223029_FixedMisunderstanding.cs" />
+    <Compile Include="Migrations\201710300223029_FixedMisunderstanding.Designer.cs">
+      <DependentUpon>201710300223029_FixedMisunderstanding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710300229009_FixedMisunderstanding2.cs" />
+    <Compile Include="Migrations\201710300229009_FixedMisunderstanding2.Designer.cs">
+      <DependentUpon>201710300229009_FixedMisunderstanding2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710300248314_StringNameChanged.cs" />
+    <Compile Include="Migrations\201710300248314_StringNameChanged.Designer.cs">
+      <DependentUpon>201710300248314_StringNameChanged.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710300302277_JustInCase.cs" />
+    <Compile Include="Migrations\201710300302277_JustInCase.Designer.cs">
+      <DependentUpon>201710300302277_JustInCase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\MVCReviewSiteContext.cs" />
@@ -319,6 +335,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710292353477_NavbarAndFooterCssWork4.resx">
       <DependentUpon>201710292353477_NavbarAndFooterCssWork4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710300223029_FixedMisunderstanding.resx">
+      <DependentUpon>201710300223029_FixedMisunderstanding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710300229009_FixedMisunderstanding2.resx">
+      <DependentUpon>201710300229009_FixedMisunderstanding2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710300248314_StringNameChanged.resx">
+      <DependentUpon>201710300248314_StringNameChanged.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710300302277_JustInCase.resx">
+      <DependentUpon>201710300302277_JustInCase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
