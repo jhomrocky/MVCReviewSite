@@ -21,6 +21,7 @@ namespace MVCReviewSite.Models
         public int Score { get; set; }
 
         [ForeignKey("Category")]
+        [Display(Name = "Category")]
         public int CategoryID { get; set; }
         public virtual Category Category { get; set; }
     }

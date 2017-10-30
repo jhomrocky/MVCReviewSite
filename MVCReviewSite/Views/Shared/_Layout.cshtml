@@ -3,12 +3,15 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Convergence" rel="stylesheet">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-default" style="border-radius: 0">
+    <nav class="navbar navbar navbar-default">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -18,7 +21,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Reviewed - A Joke Review Site For Joke Reviewers</a>
+                <h3>Reviewed - A Joke Review Site For Joke Reviewers</h3>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -29,11 +32,14 @@
             </ul>
         </div>
     </nav>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
+
+    @RenderBody()
+
+    <div class="container-fluid body-content">
         <footer>
+            <hr />
             <p>@DateTime.Now.Year - A Product of the Joseph H Brain Company - Fake and not copyrighted in the slightest.</p>
+            <hr />
         </footer>
     </div>
 
